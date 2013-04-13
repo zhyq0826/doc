@@ -1,0 +1,18 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ColorPicker",
+		"HTMLBeautify",
+		"JsFormat",
+		"Package Control",
+		"SublimeCodeIntel",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/mrmartineau/jQuery.git",
+		"https://github.com/Kronuz/SublimeCodeIntel.git",
+		"https://github.com/einars/js-beautify.git"
+	]
+}
