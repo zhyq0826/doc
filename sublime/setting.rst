@@ -24,12 +24,13 @@ sublime 可以根据个人喜好以及编程语言来定制自己的设置，分
 
 **注意**
     
-    sublime 在打开文件时会检测文件的设置比如缩进等，这是检测的结果会覆盖其他的设置，可以在配置中设置取消检测
+sublime 在打开文件时会检测文件的设置比如缩进等，这是检测的结果会覆盖其他的设置，可以在配置中设置取消检测
 
-    .. code-block:: bash
-        {
-            "detect_indentation":false
-        }
+.. code-block:: bash
+
+    {
+        "detect_indentation":false
+    }
 
 
 user
@@ -67,6 +68,7 @@ css html javascript
 ----------------------
 
 .. code-block:: bash
+
     {
         "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
         "font_size": 12.0,
