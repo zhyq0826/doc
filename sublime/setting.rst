@@ -64,7 +64,7 @@ python
         "translate_tabs_to_spaces": true
     }
 
-css html javascript
+html javascript
 ----------------------
 
 .. code-block:: bash
@@ -79,6 +79,30 @@ css html javascript
         "tab_size": 2,
         "translate_tabs_to_spaces": true
     }
+
+
+css 
+------------------------
+
+.. code-block:: bash
+
+    {
+        "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+        "font_size": 12.0,
+        "ignored_packages":
+        [
+            "Vintage"
+        ],
+        "tab_size": 2,
+        "translate_tabs_to_spaces": true,
+        // Calculates indentation automatically when pressing enter
+        "auto_indent": true,
+        // Adds whitespace up to the first open bracket when indenting. Requires
+        // auto_indent to be enabled.
+        "indent_to_bracket": true
+    }
+
+
 
 useful plugin
 ----------------------
