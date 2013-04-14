@@ -110,3 +110,4 @@ useful plugin
 - JsFormat
 - SublimeCodeIntel
 - ZenCoding
+- Bracket Hightlighter
