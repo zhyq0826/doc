@@ -1,7 +1,7 @@
 Coding Style
 ------------------
 
-## CoffeeScript
+**CoffeeScript**
 
 - Write new JS in CoffeeScript.
 - Use soft-tabs with a two space indent.
@@ -12,7 +12,7 @@ Coding Style
 - Don't ever use $.get or $.post. Instead use $.ajax and provide both a success handler and an error handler.
 - Use $.fn.on instead of $.fn.bind, $.fn.delegate and $.fn.live
 
-## Existing JavaScript
+**Existing JavaScript**
 
 - Avoid adding new .js files.
 - Use soft-tabs with a two space indent.
@@ -26,7 +26,7 @@ Try to prefix all javascript-based selectors with js-. This is taken from `sligh
 Behaviors
 -------------------
 
-### MENU
+**MENU**
 
 A simple pop-up menu. You'll need a containing element with js-menu-container, something to click to open the element js-menu-target, then the menu itself js-menu-content.
 
@@ -55,7 +55,7 @@ A simple pop-up menu. You'll need a containing element with js-menu-container, s
       </div>
     </div>
 
-### DETAILS
+**DETAILS**
 
 With the details behavior you can implement simple div toggling without writing any extra JavaScript. You just need to apply 2 classes classes. js-details-container to the containing element and js-details-target to the clickable element.
 
@@ -74,7 +74,7 @@ With the details behavior you can implement simple div toggling without writing 
       <div class="content">Hidden Contents</div>
     </div>
 
-### Select Menu
+**Select Menu**
 
 Create a select menu in a button without a label.
 

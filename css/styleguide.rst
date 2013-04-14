@@ -93,7 +93,7 @@ When styling a component, start with an element + class namespace (prefer class 
     }
 
 
-### CSS Specificity guidelines
+**CSS Specificity guidelines**
 
 - If you must use an id selector (#selector) make sure that you have no more than one in your rule declaration. A rule like #header .search #quicksearch { ... } is considered harmful.
 - When modifying an existing element for a specific use, try to use specific class names. Instead of .listings-layout.bigger use rules like .listings-layout.listings-bigger. Think about ack/greping your code in the future.
