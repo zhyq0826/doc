@@ -1,7 +1,7 @@
 mongodb的更新操作
 ==========================
 
-..code-block:: bash
+.. code-block:: bash
 
     db.blog.update({},{'$set':{'tag':tag}})
 
