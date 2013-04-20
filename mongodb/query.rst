@@ -79,31 +79,31 @@ mongodb query
 
 6.  **数组查询**
 
-    数组查询和普通的查询没有区别,如下查询tag数组中包含sql的文章
+    1) 数组查询和普通的查询没有区别,如下查询tag数组中包含sql的文章
 
     .. code-block:: bash
 
         db.blog.find({'tag':'sql'})
 
-    如果要匹配数组中的多个元素使用$all查询,查询包含sql和nosql的所有文章，顺序无关
+    2) 如果要匹配数组中的多个元素使用$all查询,查询包含sql和nosql的所有文章，顺序无关
 
     .. code-block:: bash
 
         db.blog.find({'tag':{'$all':['sql','nosql']}})
 
-    精确匹配整个数组，即包含特定顺序
+    3) 精确匹配整个数组，即包含特定顺序
 
     .. code-block:: bash
 
         db.blog.find({'tag':['sql','nosql','mongodb']})
 
-    匹配数组某个位置上的元素使用list.key
+    5) 匹配数组某个位置上的元素使用list.key
 
     .. code-block:: bash
 
         db.blog.find({'tag.1':'sql'})
 
-    $slice 操作返回数组特定长度的内容
+    6) $slice 操作返回数组特定长度的内容
 
     返回标签的前三条
 

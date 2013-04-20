@@ -109,5 +109,6 @@ useful plugin
 
 - JsFormat
 - SublimeCodeIntel
-- ZenCoding
+- `ZenCoding or emmet <http:\\emmet.io>`_
+- GitGutter
 - Bracket Hightlighter
