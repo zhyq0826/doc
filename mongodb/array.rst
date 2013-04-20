@@ -10,7 +10,7 @@ mongodb 数组操作
 
 例如博客文章中的标签，可能会有一篇文章包含多个标签，一个标签对应多篇文章
 
--- code-block:: bash
+.. code-block:: bash
 
     tag --> [
         article1,
