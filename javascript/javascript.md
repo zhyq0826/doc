@@ -4,7 +4,7 @@
 
 - **RULE**: Identifiers bound to constructors **must** start with a capital.
 
-- **RULE**: 绑定到构造函数的标识符必须以**大写**开头.
+- **RULE**: 绑定到构造函数的标识符必须以 **大写** 开头.
 
 ```javascript
   // GOOD
@@ -33,7 +33,7 @@
 - **RULE**: Identifiers bound to a variable or function **must** be CamelCased or lowercase,
   depending on their length.
 
-- **RULE**: 绑定到函数和字面量的标识符必须以**小写**开头且必须是**驼峰风格**或全部小写
+- **RULE**: 绑定到函数和字面量的标识符必须以 **小写** 开头且必须是 **驼峰风格** 或全部小写
 
 ```javascript
   // GOOD
@@ -58,7 +58,7 @@
 - **RULE**: Variable declarations **should** appear at the top of functions,
   and not inside other blocks. The exception is *for* loops.
 
-- **RULE**: 变量必须在使用之前声明,而且声明位置不应该是除函数的顶部或者**loop**循环内的内部其他位置
+- **RULE**: 变量必须在使用之前声明,而且声明位置不应该是除函数的顶部或者 **loop** 循环内的内部其他位置
 
 > Variable declarations are moved up to the top of the function scope anyway,
 > so that's where they belong.
