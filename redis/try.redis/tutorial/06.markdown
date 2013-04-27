@@ -1,0 +1,24 @@
+[LLEN](#help) returns the current length of the list.
+
+<pre><code>
+    <a href="#run">LLEN friends</a> => 3
+</code></pre>
+
+[LPOP](#help) removes the first element from the list and returns it.
+
+<pre><code>
+    <a href="#run">LPOP friends</a> => "Sam"
+</code></pre>
+
+[RPOP](#help) removes the last element from the list and returns it.
+
+<pre><code>
+    <a href="#run">RPOP friends</a> => "Bob"
+</code></pre>
+
+Note that the list now only has one element:
+
+<pre><code>
+    <a href="#run">LLEN friends</a> => 1
+    <a href="#run">LRANGE friends 0 -1</a> => ["Tom"]
+</code></pre>

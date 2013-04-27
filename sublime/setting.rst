@@ -102,6 +102,16 @@ css
         "indent_to_bracket": true
     }
 
+auto pep8
+-------------------------
+
+.. code-block:: bash
+
+    {
+        "max-line-length": 120,
+        "ignore":"E24, E226, W191"
+    }
+
 
 
 useful plugin
@@ -112,3 +122,7 @@ useful plugin
 - `ZenCoding or emmet <http://emmet.io>`_
 - GitGutter
 - Bracket Hightlighter
+- AutoPEP8
+- MarkDown Build
+- MarkDown preview
+- SublimeLinter
