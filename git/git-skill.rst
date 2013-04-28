@@ -56,6 +56,10 @@ git 使用技巧
         
 4. **git push -u origin master**
 
+   .. code-block:: bash
+
+         Branch master set up to track remote branch master from origin.
+
    在本地建立一个项目之后需要推送到远端的服务器，如果是第一次推送到远端，本地git并不知道把它推送到远端的什么分支，如果你推送的分支是需要经常推送到这个分支的，那么则指定 -u 参数
    以后每次push 或 pull的时候就不需要在指定分支
    
