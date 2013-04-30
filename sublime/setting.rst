@@ -60,7 +60,7 @@ python
         [
             "Vintage"
         ],
-        "tab_size": 4,s
+        "tab_size": 4,
         "translate_tabs_to_spaces": true
     }
 
@@ -112,6 +112,22 @@ auto pep8
         "ignore":"E24, E226, W191"
     }
 
+sublimeLinter
+--------------------------
+
+- W191: 80 long
+- E231: after : is whitespace
+
+.. code-block:: bash
+
+    {
+        "pep8_ignore":
+        [
+            "E501",
+            "W191",
+            "E231"
+        ]
+    }
 
 
 useful plugin
