@@ -38,5 +38,5 @@ git branch 命令
    新建分支并且切换
 
 10. **git fetch origin androidesk-1.0**
-
-   clone 远程分支
+   
+    clone 远程分支
