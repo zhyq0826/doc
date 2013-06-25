@@ -1,4 +1,3 @@
-
 git branch 命令
 *******************
 
@@ -37,3 +36,7 @@ git branch 命令
 9. **git checkout -b branchname**
     
    新建分支并且切换
+
+10. **git fetch origin androidesk-1.0**
+
+   clone 远程分支
