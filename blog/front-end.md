@@ -36,3 +36,11 @@
 - [adoble](http://blogs.adobe.com/webplatform/)
     
     Making the web awesome
+
+- [smashingmagazine](http://coding.smashingmagazine.com/)
+
+    With a commitment to quality content for the design community
+
+- [inserthtml](http://www.inserthtml.com/)
+
+    
