@@ -23,7 +23,8 @@
     DesignM.ag is a community-based website for web designers and developers. The site includes a popular blog, a user-submitted news section, a design gallery, and a design job board.
 
 - [css-tricks](http://css-tricks.com/)
-
+    
+    front end community
 
 - [commutercreative](http://dev.commutercreative.com/#)
 
@@ -42,5 +43,10 @@
     With a commitment to quality content for the design community
 
 - [inserthtml](http://www.inserthtml.com/)
+    
+    css and design
 
+- [img is everything](http://imgiseverything.co.uk/)
+
+    Freelance front-end developer Phil Thompson
     
