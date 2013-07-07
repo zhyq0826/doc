@@ -50,3 +50,19 @@
 
     Freelance front-end developer Phil Thompson
     
+- [snook](http://snook.ca/)
+    
+    I'm Jonathan Snook and I write about web design and development
+    现任spoify产品经理，有十年以上前段开发经验，其css架构思想以及组件化开发理论对指导实践开发意义非凡
+
+- [maxdesign](http://css.maxdesign.com.au/index.htm)
+
+    关于css基础概念教程，虽然比较旧了，但是对理解css基础概念很有帮助
+
+- [hongkiat.com](http://www.hongkiat.com/blog/)
+    
+    design inspiration technology
+
+- [satzansatz](http://www.satzansatz.de/css.html)
+
+    This site, both personal and professional, is about freelance editing and topics related to web design.
