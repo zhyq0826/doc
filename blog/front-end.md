@@ -68,8 +68,11 @@
     This site, both personal and professional, is about freelance editing and topics related to web design.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [designer ledger](http://www.designerledger.com/)
 =======
+=======
+>>>>>>> 92a1ab60ce19c642c48a1035005634a8b18a64a8
 - [幸福收藏夹](http://sofish.de/)
 
     Sofish Lin 热爱设计，目前以写前端代码谋生，现供职于百姓网。写着 (x)HTML(5) [, Jade, [EJS]]、CSS(2.1/3) 、JS(Node[, Express])、PHP、MySQL，同时也想深入为程序员而写的程序 — Ruby(Rails)，桌面/Web 一样行的 Python。
@@ -80,5 +83,9 @@
 
     对于前端优化，也可以找我聊聊，即便总的来说也只是围绕缓存和链接数，有趣的是这个话题不浅也不窄，可以不怕没话题。当然可能平时时间不会太多，因为在 iPhone 8 小时的待机花费大概是 7% 的情况下，有时候从 9:00 上班 100% 电量的手机到下班看了还有 93%；而晚上我都尽量和家人在一起。不过我喜欢开源，会把一些内容放上 Github，或许我们的交流可以在代码上先展开。BTW. MIT License 是我的最爱。
 
+<<<<<<< HEAD
+    平时话不多，不过认识了不少人，和俗世的大多数人一样，喜欢和聪明的人聊天，和聪明的人共事。上微博和生活圈的人交流，上 twitter 和知道为什么 facebook 这个打不开页面的骗子公司也能值 1000亿的人交流。
+>>>>>>> 92a1ab60ce19c642c48a1035005634a8b18a64a8
+=======
     平时话不多，不过认识了不少人，和俗世的大多数人一样，喜欢和聪明的人聊天，和聪明的人共事。上微博和生活圈的人交流，上 twitter 和知道为什么 facebook 这个打不开页面的骗子公司也能值 1000亿的人交流。
 >>>>>>> 92a1ab60ce19c642c48a1035005634a8b18a64a8
