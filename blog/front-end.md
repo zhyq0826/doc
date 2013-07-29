@@ -66,3 +66,5 @@
 - [satzansatz](http://www.satzansatz.de/css.html)
 
     This site, both personal and professional, is about freelance editing and topics related to web design.
+
+- [designer ledger](http://www.designerledger.com/)
