@@ -185,3 +185,53 @@ server {
 #		try_files $uri $uri/ /index.html;
 #	}
 #}
+#
+server {
+    listen 80;
+
+    server_name bootstrap.form.my.com;
+    root /home/zhyq/project/Bootstrap-Form-Builder;
+	index index.html index.htm;
+
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
+
+
+server {
+    listen 80;
+
+    server_name bootstrap.lightbox.my.com;
+    root /home/zhyq/project/bootstrap-lightbox/docs;
+	index index.html index.htm;
+
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
+
+
+server {
+    listen 80;
+
+    server_name bootstrap.icheck.my.com;
+    root /home/zhyq/project/iCheck/demo;
+	index index.html index.htm;
+
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
+
+server {
+    listen 80;
+
+    server_name bootstrap.flippant.my.com;
+    root /home/zhyq/project/flippant.js;
+	index index.html index.htm;
+
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
