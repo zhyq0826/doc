@@ -4,7 +4,7 @@
 
 ```sh
 
-rm ./-r
+  rm ./-r
 
 ```
 ##### 解压 压缩
@@ -12,8 +12,8 @@ rm ./-r
 
 ```sh
 
-解压：tar xvfz xxx.tar.gz.
-压缩：tar -czf xxx.tar.gz xxxx
+  解压：tar xvfz xxx.tar.gz.
+  压缩：tar -czf xxx.tar.gz xxxx
 
 ```
 
@@ -21,7 +21,17 @@ rm ./-r
 
 ```sh
 
-scp -P xxxx xxx.txt  user@192.168.0.3:~/
+  scp -P xxxx xxx.txt  user@192.168.0.3:~/
 
 
 ```
+
+
+##### 更改目录权限到某个用户
+
+```sh
+
+  sudo chown -R zhyq.zhyq src/
+  
+```
+
