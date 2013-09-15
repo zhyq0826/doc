@@ -31,6 +31,10 @@ mongodb
 
 mysql
 
+memcached
+
+redis
+
 #### 其他
 
 nodejs
