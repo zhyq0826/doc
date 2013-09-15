@@ -2,6 +2,15 @@
 
 ## install
 
+
+install nodejs
+
+```sh
+
+    cd node
+    sudo make install
+
+```
 先卸载全局的grunt
 
 ```shell

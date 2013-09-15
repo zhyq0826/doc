@@ -83,7 +83,7 @@ server {
     listen 80;
 
     server_name color.my.com;
-	root /home/zhyq/project/design/color;
+	root /home/zhyq/github/design/color;
 	index color.html color.htm;
 
 	location / {
@@ -95,7 +95,7 @@ server {
     listen 80;
 
     server_name bootstrap.my.com;
-	root /home/zhyq/project/bootstrap/docs;
+	root /home/zhyq/github/bootstrap/docs;
 	index index.html index.htm;
 
 	location / {
@@ -107,7 +107,7 @@ server {
     listen 80;
 
     server_name redis.my.com;
-    root /home/zhyq/project/redis/_build/html;
+    root /home/zhyq/github/redis/_build/html;
 	index index.html index.htm;
 
 	location / {
@@ -140,7 +140,7 @@ server {
     }
 
     location ^~ /static {
-        root /home/zhyq/project/hometown-timeline/;
+        root /home/zhyq/github/hometown-timeline/;
         if ($query_string) {
             expires max;
         }
@@ -190,7 +190,7 @@ server {
     listen 80;
 
     server_name bootstrap.form.my.com;
-    root /home/zhyq/project/Bootstrap-Form-Builder;
+    root /home/zhyq/github/Bootstrap-Form-Builder;
 	index index.html index.htm;
 
 	location / {
@@ -203,7 +203,7 @@ server {
     listen 80;
 
     server_name bootstrap.lightbox.my.com;
-    root /home/zhyq/project/bootstrap-lightbox/docs;
+    root /home/zhyq/github/bootstrap-lightbox/docs;
 	index index.html index.htm;
 
 	location / {
@@ -216,7 +216,7 @@ server {
     listen 80;
 
     server_name bootstrap.icheck.my.com;
-    root /home/zhyq/project/iCheck/demo;
+    root /home/zhyq/github/iCheck/demo;
 	index index.html index.htm;
 
 	location / {
@@ -228,7 +228,7 @@ server {
     listen 80;
 
     server_name bootstrap.flippant.my.com;
-    root /home/zhyq/project/flippant.js;
+    root /home/zhyq/github/flippant.js;
 	index index.html index.htm;
 
 	location / {
