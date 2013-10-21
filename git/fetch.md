@@ -19,3 +19,7 @@
 
 
 
+##### git fetch origin branchname  
+
+
+获取远程分支
