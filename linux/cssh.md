@@ -12,10 +12,13 @@
 
 2）sudo cpan -i Tk　##会自动地从CPAN上下载安装Tk.pm
 
+3. ./configure
+4. make
+5  make install
 
-## config
+## config .csshrc
 
 clusters = blackbord
 
-app = username@ip1:port  username@ip2:port2
+blackbord = username@ip1:port  username@ip2:port2
 

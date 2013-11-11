@@ -21,7 +21,7 @@
 
 ```sh
 
-  scp -P xxxx xxx.txt  user@192.168.0.3:~/
+  scp -P port xxx.txt  user@192.168.0.3:~/
 
 
 ```
@@ -35,3 +35,19 @@
   
 ```
 
+
+##### wc 统计字符信息
+
+```sh
+
+  wc 
+
+```
+
+#### install software
+
+```sh
+
+sudo dpkg -i xxxx.deb
+
+```
