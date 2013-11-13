@@ -12,4 +12,13 @@ Circus is a program that runs and watches processes and sockets. Circus can be u
 
 ```
 
+##### bpython
 
+[project host](http://bpython-interpreter.org/downloads/)
+
+readme:
+
+```
+增强的python 交互解释器
+
+```
