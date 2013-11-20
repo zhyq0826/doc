@@ -60,3 +60,8 @@ sudo dpkg -i xxxx.deb
   cd 
  
 ```
+
+
+##### telnet 退出
+
+ctrl+], 然后输入q
