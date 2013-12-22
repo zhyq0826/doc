@@ -65,3 +65,14 @@ sudo dpkg -i xxxx.deb
 ##### telnet 退出
 
 ctrl+], 然后输入q
+
+
+##### ntpdate 同步服务器时间
+
+
+```
+    sudo apt-get install ntpdate
+
+    sudo ntpdate pool.ntp.org
+
+```

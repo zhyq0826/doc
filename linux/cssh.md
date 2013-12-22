@@ -6,7 +6,7 @@
 2. install tk
 
 
-*error*:Can't locate Tk.pm
+*error*:Can not  locate Tk.pm
 
 1）sudo apt-get install libx11-dev
 
@@ -22,3 +22,4 @@ clusters = blackbord
 
 blackbord = username@ip1:port  username@ip2:port2
 
+## sudo apt-get install clusterssh 

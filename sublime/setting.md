@@ -16,9 +16,11 @@ sublime 可以根据个人喜好以及编程语言来定制自己的设置，分
 
 默认设置优先级最高，其次是语言设置和用户设置,例如当前打开文件时html，选择语言设置时，可看到打开的设置包是
 
-.. code-block:: bash
+```
     
     Packages\User\HTML.sublime-setting
+
+```
 
 可以针对html语言进行自己的偏好设置
 
@@ -26,17 +28,18 @@ sublime 可以根据个人喜好以及编程语言来定制自己的设置，分
     
 sublime 在打开文件时会检测文件的设置比如缩进等，这是检测的结果会覆盖其他的设置，可以在配置中设置取消检测
 
-.. code-block:: bash
+```
 
     {
         "detect_indentation":false
     }
 
+```
 
 user
 ---------------------
 
-.. code-block:: bash
+```
 
     {
         "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
@@ -48,10 +51,12 @@ user
         "translate_tabs_to_spaces": true
     }
 
+```
+
 python
 ---------------------
 
-.. code-block:: bash
+```
 
     {
         "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
@@ -64,10 +69,12 @@ python
         "translate_tabs_to_spaces": true
     }
 
+```
+
 html javascript
 ----------------------
 
-.. code-block:: bash
+```
 
     {
         "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
@@ -80,11 +87,12 @@ html javascript
         "translate_tabs_to_spaces": true
     }
 
+```
 
 css 
 ------------------------
 
-.. code-block:: bash
+```
 
     {
         "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
@@ -102,15 +110,18 @@ css
         "indent_to_bracket": true
     }
 
+```
+
 auto pep8
 -------------------------
 
-.. code-block:: bash
+```
 
     {
         "max-line-length": 120,
         "ignore":"E24, E226, W191"
     }
+```
 
 sublimeLinter
 --------------------------
@@ -118,7 +129,7 @@ sublimeLinter
 - W191: 80 long
 - E231: after : is whitespace
 
-.. code-block:: bash
+```
 
     {
         "pep8_ignore":
@@ -129,16 +140,20 @@ sublimeLinter
         ]
     }
 
+```
+
 
 useful plugin
 ----------------------
 
 - JsFormat
 - SublimeCodeIntel
-- `ZenCoding or emmet <http://emmet.io>`_
+- [ZenCoding or emmet](<http://emmet.io>)
 - GitGutter
 - Bracket Hightlighter
 - AutoPEP8
 - MarkDown Build
 - MarkDown preview
 - SublimeLinter
+- [Jedi - Python autocompletion](https://github.com/davidhalter/jedi)
+- [SublimeRope](https://github.com/JulianEberius/SublimeRope)
