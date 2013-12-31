@@ -76,3 +76,8 @@ ctrl+], 然后输入q
     sudo ntpdate pool.ntp.org
 
 ```
+
+
+##### du -sh .
+
+统计当前目录大小
