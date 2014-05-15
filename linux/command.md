@@ -79,6 +79,8 @@ ctrl+], 然后输入q
 
 
 ##### du -sh .
+>disk usage -> du 
+>du -cs 统计目录总大小
 
 统计当前目录大小
 
@@ -86,10 +88,26 @@ ctrl+], 然后输入q
 
 ##### 查找指定字符在什么文件 什么行
 
+```
+grep some dir|filename --color -n
 
-
-
+```
 
 ##### 查找指定字符在什么文件 什么行
 
-cat *.py | grep -rn conding
+cat *.py | grep -rn coding
+
+
+
+##### 查看内存
+
+* top
+* top -p        #pid 的内存等
+
+
+##### lsof
+
+* lsof -i:8300  #端口pid
+* lsof -p pid   #pid 文件位置
+
+
