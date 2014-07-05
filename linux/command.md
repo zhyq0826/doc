@@ -88,8 +88,4 @@ ctrl+], 然后输入q
 
 
 
-
-
-##### 查找指定字符在什么文件 什么行
-
 cat *.py | grep -rn conding

@@ -83,7 +83,7 @@ html javascript
         [
             "Vintage"
         ],
-        "tab_size": 2,
+        "tab_size": 4,
         "translate_tabs_to_spaces": true
     }
 
@@ -101,7 +101,7 @@ css
         [
             "Vintage"
         ],
-        "tab_size": 2,
+        "tab_size": 4,
         "translate_tabs_to_spaces": true,
         // Calculates indentation automatically when pressing enter
         "auto_indent": true,
@@ -150,6 +150,7 @@ useful plugin
 - SublimeCodeIntel
 - [ZenCoding or emmet](<http://emmet.io>)
 - GitGutter
+- VSCGutter
 - Bracket Hightlighter
 - AutoPEP8
 - MarkDown Build
