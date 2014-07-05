@@ -79,6 +79,8 @@ ctrl+], 然后输入q
 
 
 ##### du -sh .
+>disk usage -> du 
+>du -cs 统计目录总大小
 
 统计当前目录大小
 
@@ -86,6 +88,39 @@ ctrl+], 然后输入q
 
 ##### 查找指定字符在什么文件 什么行
 
+```
+grep some dir|filename --color -n
+
+```
+
+##### 查找指定字符在什么文件 什么行
+
+cat *.py | grep -rn coding
 
 
-cat *.py | grep -rn conding
+
+##### 查看内存
+
+* top
+* top -p        #pid 的内存等
+
+
+##### lsof
+
+* lsof -i:8300  #端口pid
+* lsof -p pid   #pid 文件位置
+
+
+#####  uname －a   （Linux查看版本当前操作系统内核信息）
+
+
+##### cat /proc/version （Linux查看当前操作系统版本信息）
+
+
+##### cat /etc/issue  或cat /etc/redhat-release
+
+##### cat /proc/cpuinfo （Linux查看cpu相关信息，包括型号、主频、内核信息等）
+
+##### getconf LONG_BIT  （Linux查看版本说明当前CPU运行在32bit模式下， 但不代表CPU不支持64bit）
+
+##### lsb_release -a
