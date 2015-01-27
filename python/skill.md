@@ -13,3 +13,8 @@
 ```
 
 
+## 注册python 包
+
+1. python setup.py sdist
+2. python setup.py register
+3. python setup.py sdist upload
