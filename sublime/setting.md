@@ -147,12 +147,12 @@ useful plugin
 ----------------------
 
 - JsFormat
-- SublimeCodeIntel
+- [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
 - [ZenCoding or emmet](<http://emmet.io>)
 - GitGutter
 - VSCGutter
-- Bracket Hightlighter
-- AutoPEP8
+- [Bracket Hightlighter](https://github.com/facelessuser/BracketHighlighter)
+- [AutoPEP8](https://github.com/hhatto/autopep8)
 - MarkDown Build
 - MarkDown preview
 - SublimeLinter
