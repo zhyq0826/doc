@@ -152,6 +152,7 @@ useful plugin
 - [ZenCoding or emmet](<http://emmet.io>)
 - GitGutter
 - VSCGutter
+- [sublime_alignment](https://github.com/wbond/sublime_alignment)
 - [Bracket Hightlighter](https://github.com/facelessuser/BracketHighlighter)
 - [AutoPEP8](https://github.com/hhatto/autopep8)
 - MarkDown Build
