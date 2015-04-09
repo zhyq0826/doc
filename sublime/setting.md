@@ -48,7 +48,8 @@ user
         [
             "Vintage"
         ],
-        "translate_tabs_to_spaces": true
+        "translate_tabs_to_spaces": true,
+        "font_face": "Ubuntu Mono",               //only in Ubuntu 
     }
 
 ```
