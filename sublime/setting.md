@@ -158,5 +158,6 @@ useful plugin
 - MarkDown Build
 - MarkDown preview
 - SublimeLinter
+- [flatland](https://github.com/thinkpixellab/flatland)
 - [Jedi - Python autocompletion](https://github.com/davidhalter/jedi)
 - [SublimeRope](https://github.com/JulianEberius/SublimeRope)
