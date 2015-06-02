@@ -1,0 +1,16 @@
+[user]
+    name = zhaoyongqiang
+    email = zhyq0826@gmail.com
+[color]
+    ui = true
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    editor = vim
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    df = diff
+    br = branch
