@@ -14,3 +14,4 @@
     ci = commit
     df = diff
     br = branch
+    pl = pull
