@@ -4,8 +4,8 @@ git 使用技巧
 1. **过滤不需要提交的文件**
 
    在 .git/info 目录下面有一个exclude文件，使用vi把这个文件打开，添加上需要过滤的文件如下,每次提交时这些文件会被过滤，这个配置对此项目全局有效
-   
-   .. code-block:: bash
+
+```
         
        # git ls-files --others --exclude-from=.git/info/exclude
        # Lines that start with '#' are comments.
@@ -17,11 +17,13 @@ git 使用技巧
        *.swp
        *.rst~
        * doc/
-       
+
+```
 
 2. **git 报401错误 且不提示用户名和密码的解决办法**
    
-   .. code-block:: bash
+```
+
        
        $ git clone http://github.com/zhyq0826/git-doc
        error: The requested URL returned error: 401 while accessing https://github.com/zhyq0826/git-doc.git/info/refs
@@ -41,7 +43,11 @@ git 使用技巧
      
           $ git clone http://username:password@github.com/zhyq0826/git-doc
 
+```
+
 3. **使用 git stash 命令临时保存本地修改**
+
+```
 
    进行部署时经常需要修改本地配置文件如dbconf文件，conf文件，但这些文件在代码更新时不需要更新和变动可以是用git stash 命令临时保存这些修改
    
@@ -54,7 +60,9 @@ git 使用技巧
    .. code-block:: bash
    
         $ git stash apply
-        
+
+```
+
 4. **git push -u origin master**
 
    .. code-block:: bash
@@ -68,6 +76,8 @@ git 使用技巧
 
 
 5. **强制撤销远程分支的某次修改**
+
+```
 
    当不小心把某次不需要的提交推送到远程分支后，可以使用 git reset --hard commitid 和 git push origin +branch:branch  强制覆盖远程分支
 
@@ -84,12 +94,12 @@ git 使用技巧
    
         $ git push origin +stable:stable 
 
+```
+
 
 6. **删除远程标签**  
 
 ```
-
-git tag -d tag
-git push origin :refs/tags/tag
-
+   git tag -d tag
+   git push origin :refs/tags/tag
 ```
