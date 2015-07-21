@@ -83,3 +83,13 @@ git 使用技巧
    .. code-block:: bash
    
         $ git push origin +stable:stable 
+
+
+6. **删除远程标签**  
+
+```
+
+git tag -d tag
+git push origin :refs/tags/tag
+
+```
