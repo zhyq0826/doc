@@ -43,3 +43,7 @@ ls -lSrh *.mp*
 du -kx | egrep -v "\./.+/" | sort -n
 
 ```
+
+#### 端口转发
+
+ssh -NL 27017:localhost:27017 -p 19848 yada@jxqctm
