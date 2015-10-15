@@ -1,7 +1,7 @@
 ## 安卓壁纸产品功能服务
 
-- 数据抓取 godspider.adesk.com
-- 资源管理 cms god.adesk.com
+- 数据抓取 
+- 资源管理 cms 
 - 安卓壁纸 客户端 picasso rest  
 - 官方网站
     - 投稿
