@@ -81,6 +81,16 @@ turbo-admin startapp admin
 此命令在 god-server 的 apps 目录下面创建了一个子 app:admin, 在 apps.settings 中加入 admin 就可以安装了.
 
 
+## web server 目录结构规范和说明
+
+在使用 turbo 创建 web project 和 web server 之后,基本上已经包含了基础的目录结构,
+随着项目需求日益复杂,有必要引入更多的目录以保证代码组织的有序性. 以下规定了除自动创建目录以外的其他
+目录的命名和作用
+
+- utils 工具目录, 存放有关工具函数库等
+- conf 配置目录,存放有关全局配置等
+- task 目录, 异步或后台任务
+- script 一次性脚本目录, 该目录的任何一次性脚本在执行完成之后**必须用代码或其他手段消除副作用**, 防止意外启动
 
 
 ## 基础工具库的编写原则
