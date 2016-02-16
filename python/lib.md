@@ -1,14 +1,11 @@
 # python useful module
 
 
+## threading process
 
-## threading process 
-
-#### Threading
-
-#### Multiprocessing
-
-#### circus -- A Process & Socket Manager
+- Threading
+- Multiprocessing
+- circus -- A Process & Socket Manager
 
 [project doc](http://circus.readthedocs.org/en/latest/#running-a-circus-daemon)  
 [project host](https://github.com/mozilla-services/circus)  
@@ -21,26 +18,22 @@ readme:
 
 ```
 
-## 
+## [bpython](http://bpython-interpreter.org/downloads/)
 
-#### bpython
+## html http xml
 
-[project host](http://bpython-interpreter.org/downloads/)
+**[requests](https://pypi.python.org/pypi/requests/2.1.0)**
 
-readme:
+**lxml**
 
-```
+**[BeautifulSoup](https://pypi.python.org/pypi/BeautifulSoup/3.2.1)**
 
-	增强的python 交互解释器
+**untangle**
 
-```
+**xmltodict**
 
+**[jsonurl](https://pypi.python.org/pypi/jsonurl/1.0.0)**
 
-#### jsonurl
-
-[project host](https://pypi.python.org/pypi/jsonurl/1.0.0)
-
-readme:
 
 ```
 
@@ -49,103 +42,53 @@ readme:
 	>>> d = {"one" : 1, "two" : 2}
 	>>> jsonurl.query_string(d)
 	'one=1&two=2'
-	
-```
-
-
-
-
-## html http xml
-
-
-#### requests
-
-[project host](https://pypi.python.org/pypi/requests/2.1.0)
-
-readme:
 
 ```
-	
-	Requests is an Apache2 Licensed HTTP library, written in Python, for human beings.
+
+**pyquery**
+
+**py**
+
 ```
-
-#### lxml
-
-
-#### BeautifulSoup
-
-[project host](https://pypi.python.org/pypi/BeautifulSoup/3.2.1)
-
-readme:
-
-```	
-
-	HTML/XML parser for quick-turnaround applications like screen-scraping.
+The ‘py’ lib provides a uniform high-level api to deal with filesystems and filesystem-like interfaces
 ```
-
-#### untangle
-
-#### xmltodict
-
-
-
-
 
 ## distributed systems
 
-#### ZeroMQ
-
-#### RabbitMQ
-
-
-
-
-
+- ZeroMQ
+- RabbitMQ
 
 
 ## command line applications
 
-
-#### clint
-
-#### docopt
-
-
+- clint
+- docopt
+- sh
 
 
 ## networking
 
-#### Twisted
-
-#### PyZMQ
-
-#### gevent
-
-
-
-
+- Twisted
+- PyZMQ
+- gevent
 
 
 ## scientific applications
 
 
-#### NumPy
-#### Numba
-#### SciPy
-#### Matplotlib
-#### Pandas
-#### Rpy2
-#### PsychoPy
-
-
-
+- NumPy
+- Numba
+- SciPy
+- Matplotlib
+- Pandas
+- Rpy2
+- PsychoPy
 
 
 ## c extensions
 
-
-#### GIL
-#### Cython
-#### Pyrex
-#### Shedskin
-#### Numba
+- GIL
+- Cython
+- Pyrex
+- Shedskin
+- Numba
