@@ -109,3 +109,13 @@ $ git clone http://username:password@github.com/zhyq0826/git-doc
    git tag -d tag
    git push origin :refs/tags/tag
 ```
+
+7.**重命名标签**
+
+```
+git tag new old
+git tag -d old
+git push origin :refs/tags/old
+git push --tags
+
+```
